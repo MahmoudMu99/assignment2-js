@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+
+
+body {
+    background-image: url('../image/par42074.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home {
+
+    text-align: center;
+
+   
+}
+#home-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.545);
+ 
+
+}
+.home h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 40px;
+}
+.home button {
+    margin-top: 30px;
+    margin-bottom:20px ;
+    padding: 20px 40px;
+    transition: 0s;
+    border-radius: 10px;
+    border: none;
+}
+.home button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+.home p {
+    font-size: 30px;
+   color: white;
+}
+#quote {
+    padding-bottom: 20px;
+}
